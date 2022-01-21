@@ -1,0 +1,19 @@
+{
+    "name": "server-license",
+    "version": "0.0.1",
+    "description": "Verificador de licenças do macaco bot",
+    "main": "index.js",
+    "author": "Juninho",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.2",
+        "node-cache": "^5.1.2",
+        "node-fetch": "2",
+        "winston": "^3.4.0"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "nodemon test.js"
+    }
+}
