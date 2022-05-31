@@ -1,0 +1,25 @@
+{
+    "name": "server-license",
+    "version": "0.0.1",
+    "description": "Verificador de licenças do macaco bot",
+    "main": "index.js",
+    "author": "Juninho",
+    "license": "MIT",
+    "dependencies": {
+        "chai": "^4.3.6",
+        "dotenv-safe": "^16.0.1",
+        "express": "^4.17.2",
+        "mocha": "^10.0.0",
+        "node-cache": "^5.1.2",
+        "node-fetch": "2",
+        "nyc": "^15.1.0",
+        "winston": "^3.4.0"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "mocha",
+        "cov": "nyc --reporter=text mocha",
+        "cov:full": "nyc --reporter=text --reporter=html mocha"
+    }
+}
